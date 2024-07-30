@@ -1,0 +1,19 @@
+[package]
+name = "superdupergrid"
+description = "An extremely optimized and safe spatial hash grid."
+version = "0.2.6"
+license = "GPL-3.0"
+readme = "README.md"
+authors = ["Altanis"]
+keywords = ["physics", "collision", "grid", "spatial", "hash"]
+categories = ["simulation"]
+repository = "https://github.com/Altanis/superdupergrid"
+edition = "2021"
+
+[lib]
+crate-type = ["lib"]
+
+[dev-dependencies]
+num-format = "0.4.4"
+structopt = "0.3.26"
+rand = "0.8.5"
